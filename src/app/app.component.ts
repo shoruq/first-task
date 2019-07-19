@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-t';
+
+
+  titles:String;body:String;
+  
+readt(name)
+{
+ this.titles=name;
+}
+
+readb(name)
+{
+  this.body=name;
+}
 }
